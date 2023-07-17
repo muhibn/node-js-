@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="general.css">
+</head>
+<body>
+    <div>
+        <a href="/index">home</a>
+        <a href="/profile">profile</a>
+        <a href="/sigin">sigin</a>
+    </div>
+    
+
+    <div>
+        <form action="/auth/sigin" method="POST"> 
+        <div>
+            <label for="">use name </label>
+            <input type="text" id="name", name="username">
+        </div>
+        <div>
+            <label for="">Email</label>
+            <input type="email" id="name", name="email">
+        </div>
+                <div>
+            <label for="">Password</label>
+            <input type="password" id="name", name="password">
+
+        </div>
+        </div>
+                <div>
+            <label for="">Submit</label>
+            <input type="Submit" id="name">
+
+        </div>
+        
+        </form>
+        {{#if message}}
+        <H1>{{massage}}</H1>
+
+        {{/if}}
+    </div>
+    </h1>
+</body>
+</html>
