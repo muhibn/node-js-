@@ -1,0 +1,33 @@
+{
+    "blogs":[
+        {
+          "title": "muhibullah web page",
+          "create_time": "2023",
+          "tools": "html css react nodejs ect",
+          "author": "muhib",
+          "id": 1
+        },
+        {
+          "title": "team web page",
+          "create_time": "2023",
+          "tools": "html css react nodejs ect",
+          "author": "Ezat",
+          "id": 2
+        },
+        {
+          "title": "muhibullah web page",
+          "create_time": "2023",
+          "tools": "html css react nodejs ect",
+          "author": "Ezat",
+          "id": 3
+        },
+        {
+          "title": "team web page",
+          "create_time": "2023",
+          "tools": "html css react nodejs ect",
+          "author": "muhib",
+          "id": 4
+        }
+      ]
+      
+}
