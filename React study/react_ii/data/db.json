@@ -1,0 +1,30 @@
+{
+    "parson":[
+        {
+            "name":"muhibullah Noorzad",
+            "book":"this  book  is about the  math ",
+            "country":"Aghanistan",
+            "id":1
+
+        },
+        {
+            "name":"Haji Ahmad ",
+            "book":"English grammer and speaking ",
+            "country":"Aghanistan",
+            "id":2
+        },
+        {
+            "name":"muhibullah Noorzad",
+            "book":"this  book  is about the  math ",
+            "country":"Aghanistan",
+            "id":3
+
+        },
+        {
+            "name":"Haji Ahmad ",
+            "book":"English grammer and speaking ",
+            "country":"Aghanistan",
+            "id":4
+        }
+    ]
+}
