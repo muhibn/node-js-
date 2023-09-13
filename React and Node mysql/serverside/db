@@ -1,0 +1,19 @@
+create database blog;
+use blog;
+
+create table  user(
+    use_id int(100) primary key AUTO_INCREMENT,
+    username varchar(50),
+    password varchar(50)
+);
+
+create table blogs(
+    blog_id int(100) primary key,
+    userID  int(100),
+    title  varchar(100) not null ,
+    img varchar(200),
+    paragraph varchar(1000),
+    
+    foreign key (userID) references user(use_id)
+
+);
