@@ -1,0 +1,22 @@
+{
+    "Geeks" : [
+      { 
+        "Geekname" : "Sahil kumar",
+        "subject" : "Data structures",
+        "Articles" : 10,
+        "id":1
+        },
+      { 
+        "Geekname" : "Pawan singh",
+        "subject" : "Algorithms",
+        "Articles" : 16,
+        "id":2
+        },
+      { 
+        "Geekname" : "Ayush Goel",
+        "subject" : "Networking",
+        "Articles" : 7,
+        "id":3
+        }
+    ]
+  }
