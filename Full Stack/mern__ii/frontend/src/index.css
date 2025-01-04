@@ -1,0 +1,8 @@
+.Navbar{
+  border: solid;
+  margin: 3px;
+  background-color: beige;
+}
+input.error{
+  border: 1px solid red;
+}

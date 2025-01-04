@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="hello">Hello world</h1>
+
+    <script>
+      const person = {
+        name: "Muhibullah",
+        company: "nighwon",
+        language: "angular",
+      };
+
+      // //
+
+      // const square=x=>x*x;
+      // const area=(x,y)=>(x*y);
+
+      // console.log(square(4));
+      // console.log(area(5,4));
+
+
+      const arr=['java','cpp','c','c#']
+      position="developer";
+
+      const newArray=arr.map((course)=>({name:course,positions:position,date:Date(),rate:Math.random()}));
+      //console.log(newArray);
+
+
+      const Sorted= newArray.sort((a,b)=>(a.rate>b.rate)? -1:1);
+
+      //console.log(Sorted);
+      const {name:program,company,language,muhib="excelent"}=newArray[0];
+
+      //console.log(name);
+      console.log(program);
+      console.log(muhib);
+
+    </script>
+  </body>
+</html>
